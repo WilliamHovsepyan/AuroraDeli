@@ -1,0 +1,10 @@
+/* Centers the product options drop down menu button when the screen is small */
+.productButton {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Centers the text in the drop down menu */
+.productOptions {
+  text-align: center;
+}
