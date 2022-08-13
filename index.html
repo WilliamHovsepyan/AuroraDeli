@@ -15,16 +15,17 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="styles.css" />
 
+    <link rel="icon" href="./Images/Logos/Logo.ico">
     <title>Aurora Deli</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <!-- Header Navigation Bar -->
     <!-- Creates Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark">
       <!-- Container-fluid provides a full width container which spans the entire width of the viewport and will expand or shrink when the viewport is resized -->
       <div class="container-fluid">
         <!-- Navbar-brand is applied to logo/title of the page in the navbar -->
-        <a class="navbar-brand" href="#"><h2>Aurora Deli</h2></a>
+        <a class="navbar-brand" href="../index.html"><h2>Aurora Deli</h2></a>
         <!-- Button for creating the drop down menu -->
         <!-- Navbar-toggler will left-align by default but when combined with another element such as navbar-brand, it will align to the right -->
         <button
@@ -44,13 +45,13 @@
         <div class="collapse navbar-collapse" id="navbarHeader">
           <ul class="navbar-nav me-auto mb-2 mb-sm-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Contact">Contact</a>
+              <a class="nav-link" href="../Contact/contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="AboutUs">About Us</a>
+              <a class="nav-link" href="../AboutUs/aboutUs.html">About Us</a>
             </li>
           </ul>
           <form role="search">
@@ -67,7 +68,7 @@
 
     <!-- Product Options -->
     <!-- Creates Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark">
       <!-- Container-fluid provides a full width container which spans the entire width of the viewport and will expand or shrink when the viewport is resized -->
       <div class="container-fluid"">
         <!-- Button for creating the drop down menu -->
@@ -90,32 +91,43 @@
           class="collapse navbar-collapse justify-content-md-center"
           id="navbarOptions"
         >
+        <!-- Buttons for navigating products -->
           <ul class="navbar-nav productOptions">
-            <li class="nav-item">
-              <a class="nav-link" href="AllProducts">All Products</a>
+            <li>
+              <a class="nav-link btn btn-outline-secondary productOptionsButtons" href="AllProducts">All Products</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Grocery">Grocery</a>
+            <li>
+              <a class="nav-link btn btn-outline-secondary productOptionsButtons" href="Grocery">Grocery</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Meat">Meat</a>
+            <li>
+              <a class="nav-link btn btn-outline-secondary productOptionsButtons" href="Meat">Meat</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Cheese">Cheese</a>
+            <li>
+              <a class="nav-link btn btn-outline-secondary productOptionsButtons" href="Cheese">Cheese</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Fish">Fish</a>
+            <li>
+              <a class="nav-link btn btn-outline-secondary productOptionsButtons" href="Fish">Fish</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Frozen">Frozen</a>
+            <li>
+              <a class="nav-link btn btn-outline-secondary productOptionsButtons" href="Frozen">Frozen</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Catering">Catering</a>
+            <li>
+              <a class="nav-link btn btn-outline-secondary productOptionsButtons" href="Catering">Catering</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <!-- Main Banner/Image -->
+    <div class="container">
+      <img class="img-fluid mx-auto d-block rounded" src="./Images/Banner.jpg" alt="Aurora Deli Banner">
+    </div>
+
+    <!-- <div class="container-fluid text-center carouselFrame">
+      <h3>CHECK OUT THESE PRODUCTS!</h3>
+      
+    </div> -->
 
     <!-- JavaScript Bundle with Popper -->
     <script

@@ -1,10 +1,62 @@
+/* Sets global values */
+* {
+  color: white;
+}
+
+/* Sets paragraph style value */
+p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+/* Adjusts link values */
+.clearLink {
+  color: white;
+  text-decoration: none;
+}
+
+.clearLink:hover {
+  color: white;
+}
+
 /* Centers the product options drop down menu button when the screen is small */
 .productButton {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Centers the text in the drop down menu */
+/* Centers the buttons in the drop down menu */
 .productOptions {
-  text-align: center;
+  align-items: center;
+}
+
+/* Customizes buttons to be the same size */
+.productOptionsButtons {
+  width: 120px;
+  height: 50px;
+  font-size: 15px;
+  margin: 1px;
+  margin-top: 5px;
+}
+
+.carouselFrame {
+  margin: 20px;
+}
+
+/* Contact Section */
+
+.spacer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* Icon Settings */
+.iconSettings {
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
